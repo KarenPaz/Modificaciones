@@ -8,23 +8,18 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace Entregas
+namespace HolaMundo
 {
-    public partial class FormMenu : Form
+    public partial class Form1 : Form
     {
-        public FormMenu()
+        public Form1()
         {
             InitializeComponent();
         }
 
-        private void menuStrip1_ItemClicked(object sender, ToolStripItemClickedEventArgs e)
+        private void button1_Click(object sender, EventArgs e)
         {
-
-        }
-
-        private void rentasToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-
-        }
+            MessageBox.Show("Hola Mundo");
+         }
     }
 }

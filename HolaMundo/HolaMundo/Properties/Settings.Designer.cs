@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace Entregas.Properties
+namespace HolaMundo.Properties
 {
 
 
